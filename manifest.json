@@ -1,0 +1,14 @@
+{
+  "name": "IMDB Context Rating",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": ["contextMenus", "webRequest", "notifications", "http://www.imdbapi.com/*"],
+  "description": "Find any movie rating from IMDB in context menu",
+  "background": {
+    "scripts": ["handler.js"]
+  },
+  "icons": { "16": "16.png",
+           "48": "48.png",
+          "128": "128.png" 
+    	}
+ }
